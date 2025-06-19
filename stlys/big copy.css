@@ -1,0 +1,11 @@
+@media screen and (min-width: 1024px) {
+
+.container {
+    width: 60em;
+    background-color: white;
+}
+
+.inner-footing {
+    float: auto;
+}
+}

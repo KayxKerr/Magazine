@@ -1,0 +1,31 @@
+@media screen and (min-width: 641px) {
+body {
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.container {
+    width: 100%;
+    background-color: white;
+}
+
+.content {
+    box-sizing: border-box;
+    padding-left: .8em;
+    width: 60%;
+    float: left;
+}
+
+.sidebar {
+    float: right;
+    width: 32%;
+    padding-bottom: .6em;
+}
+
+nav li {
+    display: inline-block;
+}
+}

@@ -63,7 +63,7 @@ button:hover {
     grid-column: 70%;
     background-color: black;
     text-align: center;
-    font-size: 6em;
+    font-size: 8em;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
@@ -108,42 +108,42 @@ p {
 }
 
 .item1 {
-    background-image: url(../images/glass-4.jpg);
+    background-image: url(../imgs/glass-4.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
     vertical-align: bottom;
 }
 .item2 {
-    background-image: url(../images/glass-7.jpg);
+    background-image: url(../imgs/glass-7.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
     vertical-align: bottom;
 }
 .item3 {
-    background-image: url(../images/glass-9.jpg);
+    background-image: url(../imgs/glass-9.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
     vertical-align: bottom;
 }
 .item4 {
-    background-image: url(../images/glass-3.jpg);
+    background-image: url(../imgs/glass-3.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
     vertical-align: bottom;
 }
 .item5 {
-    background-image: url(../images/glass-5.jpg);
+    background-image: url(../imgs/glass-5.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
     vertical-align: bottom;
 }
 .item6 {
-    background-image: url(../images/glass-6.jpg);
+    background-image: url(../imgs/glass-6.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;

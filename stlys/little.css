@@ -17,7 +17,6 @@ header, section, footer, aside, article, figure {
 
 header {
     box-sizing: border-box;
-    color: 44a5b5;
     padding-top: 8em;
     padding-left: 0;
 }
@@ -36,7 +35,7 @@ header {
 }
 
 nav ul {
-    text-align: center;
+    text-align: auto;
     list-style: none;
     background-color: black;
     margin-bottom: 1em;
@@ -45,6 +44,7 @@ nav ul {
 
 nav li {
     display: block;
+    text-align: center;
 }
 
 nav a, nav a:link, nav a:visited {
@@ -116,5 +116,11 @@ h3 {
     padding: 0;
     width: auto;
     padding-left: 9px;
+}
+
+.latte {
+    padding: 1em;
+    width: auto;
+    float: none;
 }
 }

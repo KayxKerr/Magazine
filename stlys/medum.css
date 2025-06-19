@@ -28,4 +28,15 @@ body {
 nav li {
     display: inline-block;
 }
+.inner-footer {
+    padding: 2em;
+    background-color: black;
+    color: white;
+    clear: both;
+    margin-top: 10px;
+    font-size: 5px;
+    text-align: center;
+    margin: auto;
+    width: auto;
+}
 }

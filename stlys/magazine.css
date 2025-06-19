@@ -1,0 +1,177 @@
+body, header, footer, section, aside {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: white ;
+}
+
+/* header stuff */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: black;
+}
+
+nav link {
+    list-style: none;
+}
+nav link, li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+nav link, li, a {
+    transition: all 0.3s ease 0s;
+}
+nav link, li, a:hover {
+    color: black;
+    background-color: white;
+}
+button {
+    padding: 9px 25px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.lumi {
+    display: grid;
+    grid-column: 70%;
+    background-color: black;
+    text-align: center;
+    font-size: 6em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+nav {
+    grid-template-columns: auto;
+    grid-template-columns: auto auto auto;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.grid-container > div {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+div { 
+    display: block;
+    color: white;
+    background-color: black;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+    vertical-align: bottom;
+}
+
+.item1 {
+    background-image: url(../images/glass-4.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: bottom;
+}
+.item2 {
+    background-image: url(../images/glass-7.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: bottom;
+}
+.item3 {
+    background-image: url(../images/glass-9.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: bottom;
+}
+.item4 {
+    background-image: url(../images/glass-3.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: bottom;
+}
+.item5 {
+    background-image: url(../images/glass-5.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: bottom;
+}
+.item6 {
+    background-image: url(../images/glass-6.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: bottom;
+}
+
+/* footer content */
+
+footer {
+    background-color: white;
+}
+
+.inner-footer {
+    width: 100%;
+    justify-content: center;
+    background-color: white;
+}
+
+.inner-footer, ul {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.inner-footer, ul, li {
+    color: black;
+    margin: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5ms;
+}
